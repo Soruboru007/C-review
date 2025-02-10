@@ -2,9 +2,9 @@
 
 int main(int argc, char *argv[])
 {
-  printf("%d\n",argc);
-  for(int i = 0; i < argc; argc--)
+  printf("引数の数%d\n",argc);
+  for(int i = argc - 1; i >= 0; i--)
   {
-    printf("argv[%d] %s\n", argc, argv[argc]);
+    printf("argv[%d] %s\n", i, argv[i]);
   }
 }
