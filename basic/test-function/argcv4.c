@@ -9,9 +9,9 @@ int main (int argc, char *argv[])
   }
   if(argc == 2)
   {
-    while(argv[2])
+    while(*argv[1])
     {
-      if(argv[2] == 'a')
+      if(*argv[1] == 'a')
       {
         write(1,"a",1);
       }
