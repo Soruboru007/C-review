@@ -14,8 +14,9 @@ int main (int argc, char *argv[])
       if(*argv[1] == 'a')
       {
         write(1,"a",1);
+        break;
       }
-      argv++;
+      argv[1]++;
     }
   }
   write(1,"\n",1);
