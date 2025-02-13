@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <ctype.h>
 
-
 int is_number(char *str)
 {
   for(int i = 0; str[i] != '\0'; i++)
