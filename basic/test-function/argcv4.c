@@ -7,7 +7,7 @@ int main (int argc, char *argv[])
   {
     write(1,"a",1);
   }
-  if(argc == 2)
+  else
   {
     while(*argv[1])
     {
